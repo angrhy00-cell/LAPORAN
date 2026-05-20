@@ -1,0 +1,114 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Background halaman */
+body {
+    background: #f4f6fb;
+    padding: 30px;
+}
+
+/* Judul */
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Tombol tambah */
+a {
+    text-decoration: none;
+}
+
+a[href="tambah.php"] {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background: #6c63ff;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+a[href="tambah.php"]:hover {
+    background: #574fd6;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* Header tabel */
+th {
+    background: #f1f3f9;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Isi tabel */
+td {
+    padding: 12px;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+}
+
+/* Hover row */
+tr:hover {
+    background: #f9f9ff;
+}
+
+/* Gambar */
+td img {
+    border-radius: 6px;
+}
+
+/* Aksi tombol */
+td a {
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-right: 5px;
+    color: white;
+}
+
+/* Detail (kuning) */
+td a:nth-child(1) {
+    background: #f4b400;
+}
+
+/* Ubah (biru) */
+td a:nth-child(2) {
+    background: #4285f4;
+}
+
+/* Hapus (merah) */
+td a:nth-child(3) {
+    background: #ea4335;
+}
+
+/* Hover efek */
+td a:hover {
+    opacity: 0.8;
+}
+
+/* Container biar mirip card */
+body {
+    display: flex;
+    justify-content: center;
+}
+
+table, h2, a[href="tambah.php"] {
+    max-width: 1000px;
+}
